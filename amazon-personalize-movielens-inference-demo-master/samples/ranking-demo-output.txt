@@ -1,0 +1,133 @@
+Loading movie data...
+Successfully loaded 9,742 movies
+Loading interaction data...
+Successfully loaded 158,371 interactions
+
+************ USER INFO ***************
+No user_id provided so randomly selecting a user from the interactions dataset
+user_id: 302
+
+
+************ ITEM IDS INFO ***************
+No item_ids provided so randomly selecting 20 movies from the movies dataset
+item_ids: [3795, 5802, 7845, 25834, 45074, 1447, 6365, 3769, 1835, 46972, 7477, 2334, 5470, 179119, 3648, 71248, 4016, 93855, 6687, 31737]
+
++---------------------------------------------------------------------------+---------------------------------------------+
+|                                   TITLE                                   |                   GENRES                    |
++---------------------------------------------------------------------------+---------------------------------------------+
+|                          Five Senses, The (1999)                          |                    Drama                    |
+|                     World of Henry Orient, The (1964)                     |                   Comedy                    |
+|                      Tremors II: Aftershocks (1996)                       |            Comedy|Horror|Sci-Fi             |
+|                        Captains Courageous (1937)                         |               Adventure|Drama               |
+|                             Wild, The (2006)                              | Adventure|Animation|Children|Comedy|Fantasy |
+|                             Gridlock'd (1997)                             |                    Crime                    |
+|                        Matrix Reloaded, The (2003)                        |    Action|Adventure|Sci-Fi|Thriller|IMAX    |
+|                     Thunderbolt and Lightfoot (1974)                      |                   Action                    |
+|                           City of Angels (1998)                           |            Drama|Fantasy|Romance            |
+|                        Night at the Museum (2006)                         |         Action|Comedy|Fantasy|IMAX          |
+|                        Eye See You (D-Tox) (2002)                         |               Horror|Thriller               |
+|                             Siege, The (1998)                             |               Action|Thriller               |
+|                  The Importance of Being Earnest (1952)                   |               Comedy|Romance                |
+|                        The Death of Stalin (2017)                         |                   Comedy                    |
+| Abominable Snowman, The (Abominable Snowman of the Himalayas, The) (1957) |                Horror|Sci-Fi                |
+|                              Extract (2009)                               |                   Comedy                    |
+|                     Emperor's New Groove, The (2000)                      | Adventure|Animation|Children|Comedy|Fantasy |
+|                         God Bless America (2011)                          |                Comedy|Drama                 |
+|                         My Boss's Daughter (2003)                         |               Comedy|Romance                |
+|                       Bunny Lake Is Missing (1965)                        |              Mystery|Thriller               |
++---------------------------------------------------------------------------+---------------------------------------------+
+
+************ RECENT USER INTERACTIONS ***************
++---------+------------+--------------------------------------------------------------------------------+----------------------------------+---------------------+
+| ITEM_ID | EVENT_TYPE |                                     TITLE                                      |              GENRES              |        DATE         |
++---------+------------+--------------------------------------------------------------------------------+----------------------------------+---------------------+
+|  1221   |   watch    |                         Godfather: Part II, The (1974)                         |           Crime|Drama            | 1997-01-28 17:43:16 |
+|  1198   |   watch    | Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981) |         Action|Adventure         | 1997-01-28 17:43:16 |
+|   858   |   watch    |                             Godfather, The (1972)                              |           Crime|Drama            | 1997-01-28 17:42:29 |
+|   383   |   click    |                               Wyatt Earp (1994)                                |             Western              | 1997-01-28 17:42:02 |
+|   458   |   click    |                      Geronimo: An American Legend (1993)                       |          Drama|Western           | 1997-01-28 17:42:02 |
+|   47    |   click    |                          Seven (a.k.a. Se7en) (1995)                           |         Mystery|Thriller         | 1997-01-28 17:41:04 |
+|   260   |   click    |                   Star Wars: Episode IV - A New Hope (1977)                    |     Action|Adventure|Sci-Fi      | 1997-01-28 17:41:04 |
+|   377   |   click    |                                  Speed (1994)                                  |     Action|Romance|Thriller      | 1997-01-28 17:40:32 |
+|   589   |   click    |                       Terminator 2: Judgment Day (1991)                        |          Action|Sci-Fi           | 1997-01-28 17:40:32 |
+|   293   |   click    |        LÃ©on: The Professional (a.k.a. The Professional) (LÃ©on) (1994)        |   Action|Crime|Drama|Thriller    | 1997-01-28 17:40:32 |
+|   480   |   watch    |                              Jurassic Park (1993)                              | Action|Adventure|Sci-Fi|Thriller | 1997-01-28 17:40:32 |
+|   110   |   click    |                               Braveheart (1995)                                |         Action|Drama|War         | 1997-01-28 17:39:47 |
+|   457   |   watch    |                              Fugitive, The (1993)                              |             Thriller             | 1997-01-28 17:39:46 |
+|   21    |   watch    |                               Get Shorty (1995)                                |      Comedy|Crime|Thriller       | 1997-01-28 17:39:44 |
+|   296   |   click    |                              Pulp Fiction (1994)                               |   Comedy|Crime|Drama|Thriller    | 1997-01-28 17:39:43 |
+|   707   |   click    |                            Mulholland Falls (1996)                             |       Crime|Drama|Thriller       | 1997-01-28 17:23:39 |
+|   628   |   click    |                               Primal Fear (1996)                               |   Crime|Drama|Mystery|Thriller   | 1997-01-28 17:22:38 |
+|   762   |   click    |                               Striptease (1996)                                |           Comedy|Crime           | 1997-01-28 17:22:37 |
+|   14    |   watch    |                                  Nixon (1995)                                  |              Drama               | 1997-01-28 17:22:02 |
+|   786   |   watch    |                                 Eraser (1996)                                  |      Action|Drama|Thriller       | 1997-01-28 17:22:02 |
++---------+------------+--------------------------------------------------------------------------------+----------------------------------+---------------------+
+
+************ USER TOP GENRES ***************
++-----------+-------+
+|   GENRE   | COUNT |
++-----------+-------+
+| Thriller  |  16   |
+|   Drama   |  15   |
+|  Action   |  12   |
+|   Crime   |  10   |
+|  Comedy   |   7   |
+| Adventure |   7   |
+|  Romance  |   6   |
+|  Sci-Fi   |   5   |
+|  Mystery  |   4   |
+|  Western  |   2   |
+|    War    |   1   |
++-----------+-------+
+
+************ RERANKED ITEMS ***************
++---------+---------------------------------------------------------------------------+---------------------------------------------+-----------+
+| ITEM_ID |                                   TITLE                                   |                   GENRES                    |   SCORE   |
++---------+---------------------------------------------------------------------------+---------------------------------------------+-----------+
+|  31737  |                       Bunny Lake Is Missing (1965)                        |              Mystery|Thriller               | 0.2283751 |
+|  7845   |                      Tremors II: Aftershocks (1996)                       |            Comedy|Horror|Sci-Fi             | 0.1877946 |
+|  1447   |                             Gridlock'd (1997)                             |                    Crime                    | 0.1282427 |
+|  3769   |                     Thunderbolt and Lightfoot (1974)                      |                   Action                    | 0.1101736 |
+|  3648   | Abominable Snowman, The (Abominable Snowman of the Himalayas, The) (1957) |                Horror|Sci-Fi                | 0.0779894 |
+|  2334   |                             Siege, The (1998)                             |               Action|Thriller               | 0.0623344 |
+|  4016   |                     Emperor's New Groove, The (2000)                      | Adventure|Animation|Children|Comedy|Fantasy | 0.0552557 |
+|  3795   |                          Five Senses, The (1999)                          |                    Drama                    | 0.0453717 |
+|  6687   |                         My Boss's Daughter (2003)                         |               Comedy|Romance                | 0.0368708 |
+|  1835   |                           City of Angels (1998)                           |            Drama|Fantasy|Romance            | 0.0261012 |
+|  46972  |                        Night at the Museum (2006)                         |         Action|Comedy|Fantasy|IMAX          | 0.017293  |
+|  5470   |                  The Importance of Being Earnest (1952)                   |               Comedy|Romance                | 0.0134799 |
+|  6365   |                        Matrix Reloaded, The (2003)                        |    Action|Adventure|Sci-Fi|Thriller|IMAX    | 0.0099298 |
+| 179119  |                        The Death of Stalin (2017)                         |                   Comedy                    | 0.0007883 |
+|  5802   |                     World of Henry Orient, The (1964)                     |                   Comedy                    |    nan    |
+|  25834  |                        Captains Courageous (1937)                         |               Adventure|Drama               |    nan    |
+|  45074  |                             Wild, The (2006)                              | Adventure|Animation|Children|Comedy|Fantasy |    nan    |
+|  7477   |                        Eye See You (D-Tox) (2002)                         |               Horror|Thriller               |    nan    |
+|  71248  |                              Extract (2009)                               |                   Comedy                    |    nan    |
+|  93855  |                         God Bless America (2011)                          |                Comedy|Drama                 |    nan    |
++---------+---------------------------------------------------------------------------+---------------------------------------------+-----------+
+
+************ UNRANKED vs RANKED ITEMS ***************
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+
+|                              Unranked Movies                              |                              Reranked Movies                              |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+
+|                          Five Senses, The (1999)                          |                       Bunny Lake Is Missing (1965)                        |
+|                     World of Henry Orient, The (1964)                     |                      Tremors II: Aftershocks (1996)                       |
+|                      Tremors II: Aftershocks (1996)                       |                             Gridlock'd (1997)                             |
+|                        Captains Courageous (1937)                         |                     Thunderbolt and Lightfoot (1974)                      |
+|                             Wild, The (2006)                              | Abominable Snowman, The (Abominable Snowman of the Himalayas, The) (1957) |
+|                             Gridlock'd (1997)                             |                             Siege, The (1998)                             |
+|                        Matrix Reloaded, The (2003)                        |                     Emperor's New Groove, The (2000)                      |
+|                     Thunderbolt and Lightfoot (1974)                      |                          Five Senses, The (1999)                          |
+|                           City of Angels (1998)                           |                         My Boss's Daughter (2003)                         |
+|                        Night at the Museum (2006)                         |                           City of Angels (1998)                           |
+|                        Eye See You (D-Tox) (2002)                         |                        Night at the Museum (2006)                         |
+|                             Siege, The (1998)                             |                  The Importance of Being Earnest (1952)                   |
+|                  The Importance of Being Earnest (1952)                   |                        Matrix Reloaded, The (2003)                        |
+|                        The Death of Stalin (2017)                         |                        The Death of Stalin (2017)                         |
+| Abominable Snowman, The (Abominable Snowman of the Himalayas, The) (1957) |                     World of Henry Orient, The (1964)                     |
+|                              Extract (2009)                               |                        Captains Courageous (1937)                         |
+|                     Emperor's New Groove, The (2000)                      |                             Wild, The (2006)                              |
+|                         God Bless America (2011)                          |                        Eye See You (D-Tox) (2002)                         |
+|                         My Boss's Daughter (2003)                         |                              Extract (2009)                               |
+|                       Bunny Lake Is Missing (1965)                        |                         God Bless America (2011)                          |
++---------------------------------------------------------------------------+---------------------------------------------------------------------------+

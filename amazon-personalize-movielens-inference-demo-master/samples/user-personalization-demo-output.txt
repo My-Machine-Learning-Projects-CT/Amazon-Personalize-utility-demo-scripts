@@ -1,0 +1,98 @@
+Loading movie data...
+Successfully loaded 9,742 movies
+Loading interaction data...
+Successfully loaded 158,371 interactions
+
+************ USER INFO ***************
+No user_id provided so randomly selecting a user from the interactions dataset
+user_id: 595
+
+************ RECENT USER INTERACTIONS ***************
++---------+------------+------------------------------------------------------------+-------------------------------------------+---------------------+
+| ITEM_ID | EVENT_TYPE |                           TITLE                            |                  GENRES                   |        DATE         |
++---------+------------+------------------------------------------------------------+-------------------------------------------+---------------------+
+|  2336   |   watch    |                      Elizabeth (1998)                      |                   Drama                   | 1999-10-02 13:04:40 |
+|   501   |   watch    |                        Naked (1993)                        |                   Drama                   | 1999-10-02 13:03:51 |
+|  1912   |   watch    |                    Out of Sight (1998)                     |    Comedy|Crime|Drama|Romance|Thriller    | 1999-10-02 13:02:28 |
+|  1966   |   watch    |                    Metropolitan (1990)                     |                  Comedy                   | 1999-10-02 13:01:12 |
+|  1186   |   click    |              Sex, Lies, and Videotape (1989)               |                   Drama                   | 1999-10-02 13:00:25 |
+|  1711   |   click    |       Midnight in the Garden of Good and Evil (1997)       |            Crime|Drama|Mystery            | 1999-10-02 12:59:49 |
+|  2396   |   click    |                 Shakespeare in Love (1998)                 |           Comedy|Drama|Romance            | 1999-10-02 12:58:55 |
+|  2770   |   click    |                      Bowfinger (1999)                      |                  Comedy                   | 1999-10-02 12:56:38 |
+|  2078   |   watch    |                  Jungle Book, The (1967)                   |     Animation|Children|Comedy|Musical     | 1999-10-01 19:54:14 |
+|  1094   |   watch    |                  Crying Game, The (1992)                   |          Drama|Romance|Thriller           | 1999-10-01 19:53:17 |
+|  2353   |   click    |                 Enemy of the State (1998)                  |              Action|Thriller              | 1999-10-01 19:51:24 |
+|   780   |   watch    |            Independence Day (a.k.a. ID4) (1996)            |     Action|Adventure|Sci-Fi|Thriller      | 1999-10-01 19:50:41 |
+|   265   |   watch    | Like Water for Chocolate (Como agua para chocolate) (1992) |           Drama|Fantasy|Romance           | 1999-10-01 19:49:54 |
+|   509   |   click    |                     Piano, The (1993)                      |               Drama|Romance               | 1999-10-01 19:49:10 |
+|   50    |   watch    |                 Usual Suspects, The (1995)                 |          Crime|Mystery|Thriller           | 1999-10-01 19:48:06 |
+|  1278   |   click    |                 Young Frankenstein (1974)                  |              Comedy|Fantasy               | 1999-10-01 19:46:38 |
+|  1569   |   click    |              My Best Friend's Wedding (1997)               |              Comedy|Romance               | 1999-10-01 19:44:36 |
+|  2761   |   watch    |                   Iron Giant, The (1999)                   | Adventure|Animation|Children|Drama|Sci-Fi | 1999-10-01 19:43:51 |
+|  1199   |   watch    |                       Brazil (1985)                        |              Fantasy|Sci-Fi               | 1999-10-01 19:43:00 |
+|  2628   |   watch    |      Star Wars: Episode I - The Phantom Menace (1999)      |          Action|Adventure|Sci-Fi          | 1999-10-01 19:42:09 |
++---------+------------+------------------------------------------------------------+-------------------------------------------+---------------------+
+
+************ USER TOP GENRES ***************
++-----------+-------+
+|   GENRE   | COUNT |
++-----------+-------+
+|   Drama   |  10   |
+|  Comedy   |   7   |
+|  Romance  |   6   |
+| Thriller  |   5   |
+|  Sci-Fi   |   4   |
+|  Fantasy  |   3   |
+|   Crime   |   3   |
+| Adventure |   3   |
+|  Action   |   3   |
+|  Mystery  |   2   |
+| Children  |   2   |
+| Animation |   2   |
+|  Musical  |   1   |
++-----------+-------+
+
+************ USER RECOMMENDATIONS ***************
++---------+------------------------------------------------+--------------------------------+-----------+
+| ITEM_ID |                     TITLE                      |             GENRES             |   SCORE   |
++---------+------------------------------------------------+--------------------------------+-----------+
+|  1302   |             Field of Dreams (1989)             |     Children|Drama|Fantasy     | 0.0112908 |
+|  1641   |             Full Monty, The (1997)             |          Comedy|Drama          | 0.0087742 |
+|  2336   |                Elizabeth (1998)                |             Drama              | 0.0082736 |
+|  3408   |             Erin Brockovich (2000)             |             Drama              | 0.0069018 |
+|   671   | Mystery Science Theater 3000: The Movie (1996) |         Comedy|Sci-Fi          | 0.0057007 |
+|  1120   |       People vs. Larry Flynt, The (1996)       |          Comedy|Drama          | 0.0055633 |
+|   852   |                 Tin Cup (1996)                 |      Comedy|Drama|Romance      | 0.0054851 |
+|  1784   |           As Good as It Gets (1997)            |      Comedy|Drama|Romance      | 0.0052152 |
+|  2268   |             Few Good Men, A (1992)             |      Crime|Drama|Thriller      | 0.0050713 |
+|   719   |              Multiplicity (1996)               |             Comedy             | 0.0046091 |
+|  1042   |           That Thing You Do! (1996)            |          Comedy|Drama          | 0.0045338 |
+|  1597   |            Conspiracy Theory (1997)            | Drama|Mystery|Romance|Thriller | 0.0043447 |
+|   788   |          Nutty Professor, The (1996)           | Comedy|Fantasy|Romance|Sci-Fi  | 0.0041623 |
+|  1673   |              Boogie Nights (1997)              |             Drama              | 0.0040814 |
+|   785   |                 Kingpin (1996)                 |             Comedy             | 0.0040531 |
+|  1777   |           Wedding Singer, The (1998)           |         Comedy|Romance         | 0.0039702 |
+|  1721   |                 Titanic (1997)                 |         Drama|Romance          | 0.0039501 |
+|  3174   |             Man on the Moon (1999)             |          Comedy|Drama          | 0.0038945 |
+|  2006   |           Mask of Zorro, The (1998)            |     Action|Comedy|Romance      | 0.003749  |
+|   838   |                  Emma (1996)                   |      Comedy|Drama|Romance      | 0.0037293 |
++---------+------------------------------------------------+--------------------------------+-----------+
+
+************ TOP USER vs RECOMMENDATIONS GENRES ***************
++-----------------+-----------------+
+| User Top Genres | Recs Top Genres |
++-----------------+-----------------+
+|      Drama      |      Drama      |
+|     Comedy      |     Comedy      |
+|     Romance     |     Romance     |
+|    Thriller     |      Crime      |
+|     Sci-Fi      |    Thriller     |
+|     Fantasy     |     Sci-Fi      |
+|      Crime      |     Fantasy     |
+|    Adventure    |     Action      |
+|     Action      |       War       |
+|     Mystery     |     Mystery     |
+|    Children     |    Children     |
+|    Animation    |       nan       |
+|     Musical     |       nan       |
++-----------------+-----------------+

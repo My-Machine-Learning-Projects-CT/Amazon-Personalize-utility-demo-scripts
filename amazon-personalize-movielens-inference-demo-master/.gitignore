@@ -1,0 +1,6 @@
+__pycache__
+env/
+*.csv
+*.json
+*.json.out
+!samples/**

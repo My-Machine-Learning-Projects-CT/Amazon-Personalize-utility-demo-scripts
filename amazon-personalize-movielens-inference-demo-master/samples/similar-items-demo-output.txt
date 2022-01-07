@@ -1,0 +1,33 @@
+Loading movie data...
+Successfully loaded 9,742 movies
+Loading interaction data...
+Successfully loaded 158,371 interactions
+
+************ ITEM INFO ***************
+No item_id provided so randomly selecting a user from the interactions dataset
+item_id: 5746
+Title: Galaxy of Terror (Quest) (1981)
+Genres: Action|Horror|Mystery|Sci-Fi
+
+************ ITEM RECOMMENDATIONS ***************
++---------+--------------------------------------------------------------------------+----------------------------------+
+| ITEM_ID |                                  TITLE                                   |              GENRES              |
++---------+--------------------------------------------------------------------------+----------------------------------+
+|  70946  |                              Troll 2 (1990)                              |          Fantasy|Horror          |
+|  5181   |                             Hangar 18 (1980)                             |      Action|Sci-Fi|Thriller      |
+|  6835   |                        Alien Contamination (1980)                        |       Action|Horror|Sci-Fi       |
+|  7991   |                          Death Race 2000 (1975)                          |          Action|Sci-Fi           |
+|  7899   | Master of the Flying Guillotine (Du bi quan wang da po xue di zi) (1975) |              Action              |
+|  5764   |                              Looker (1981)                               |   Drama|Horror|Sci-Fi|Thriller   |
+|  2851   |                             Saturn 3 (1980)                              |    Adventure|Sci-Fi|Thriller     |
+|  26409  |                        Clonus Horror, The (1979)                         |          Horror|Sci-Fi           |
+|  5919   |                              Android (1982)                              |              Sci-Fi              |
+|  4518   |                    The Lair of the White Worm (1988)                     |          Comedy|Horror           |
+|  3024   |                              Piranha (1978)                              |          Horror|Sci-Fi           |
+|  1587   |                        Conan the Barbarian (1982)                        |     Action|Adventure|Fantasy     |
+|   849   |                         Escape from L.A. (1996)                          | Action|Adventure|Sci-Fi|Thriller |
+|  1275   |                            Highlander (1986)                             |     Action|Adventure|Fantasy     |
+|  3703   |                   Road Warrior, The (Mad Max 2) (1981)                   | Action|Adventure|Sci-Fi|Thriller |
+|  2288   |                            Thing, The (1982)                             |  Action|Horror|Sci-Fi|Thriller   |
++---------+--------------------------------------------------------------------------+----------------------------------+
+
